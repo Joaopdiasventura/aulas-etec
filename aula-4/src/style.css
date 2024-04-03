@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #f00;
+  text-align: center;
+}
+
+#all {
+  width: 35vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(91, 0, 0);
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 5px;
+}
+
+#periods {
+  display: flex;
+  gap: 7.5px;
+  flex-direction: column;
+}
+
+#aproved {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+#reproved {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#gradesAndFrequencies{
+  text-align: center;
+  display: none;
+}
+
+#gradesAndFrequencies div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+input[type="number"] {
+  border-radius: 15px;
+  border: none;
+  padding: 3px;
+}
+
+input:focus{
+  outline-style: none;
+}
+
+input[type="submit"], button{
+  color: #f00;
+  background-color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+input[type="submit"]:hover, button:hover{
+  scale: 1.1;
+}
