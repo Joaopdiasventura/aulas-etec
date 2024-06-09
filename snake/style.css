@@ -1,15 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
+/* alinhando o campo do jogo no meio e dando uma borda para ele */
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 canvas {
-    border: 1px solid #000;
+  border: 1px solid #000;
 }
